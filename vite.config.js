@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/mangaspark-frontend/'
-});
+  base: '/mangaspark-frontend/'  // <-- This is VERY important for GitHub Pages
+})
